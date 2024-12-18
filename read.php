@@ -13,14 +13,7 @@ if ($result->num_rows > 0) {
                 <td>" . $row['Phone_number'] . "</td>
                 <td>" . $row['address'] . "</td>
                 <td>
-                    <button class='btn btn-warning btn-sm' data-bs-toggle='modal' 
-                        data-bs-target='#editModal' 
-                        data-id='" . $row['id'] . "' 
-                        data-name='" . $row['name'] . "' 
-                        data-phone='" . $row['Phone_number'] . "' 
-                        data-address='" . $row['address'] . "'>
-                        Edit
-                    </button>
+                    <a href='update.php?id=" . $row['id'] . "' class='btn btn-warning btn-sm'>Edit</a>
                     <a href='delete.php?id=" . $row['id'] . "' class='btn btn-danger btn-sm'>Delete</a>
                 </td>
               </tr>";
