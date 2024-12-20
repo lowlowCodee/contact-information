@@ -68,35 +68,6 @@
         </div>
 
     </div>
-    <div class="modal fade" tabindex="-1" id="editModal">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1>Edit Contact Information</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="edit-form" action="update.php" method="POST">
-                        <input type="hidden" name="id" id="edit-id">
-                        <label for="edit-name">Name</label>
-                        <input type="text" name="name" id="edit-name" class="form-control"
-                            placeholder="Enter your Name">
-                        <label for="edit-phone">Phone Number</label>
-                        <input type="text" name="pNumber" id="edit-phone" class="form-control"
-                            placeholder="Enter your Phone Number">
-                        <label for="edit-address">Address</label>
-                        <input type="text" name="address" id="edit-address" class="form-control"
-                            placeholder="Enter your Address">
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-success" form="edit-form">Update</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
 
 </body>
